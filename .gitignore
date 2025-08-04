@@ -1,0 +1,8 @@
+.vscode/
+*.exe
+*.pdb
+*.sln
+*.suo
+*.vcxproj*
+*.vs
+CPP/CPP/x64
