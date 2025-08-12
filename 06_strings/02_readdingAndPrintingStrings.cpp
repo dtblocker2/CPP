@@ -8,6 +8,9 @@ int main() {
     cout << "Enter Your name: ";
     cin >> name; // cin stops at first space
     cout << "Your name is: " << name << endl;
+    // instead of cout we can also use printf to print string in terminal
+    printf(name);
+    printf(" lol\n");
 
     // Clear leftover characters from the buffer
     cin.ignore(numeric_limits<streamsize>::max(), '\n');
